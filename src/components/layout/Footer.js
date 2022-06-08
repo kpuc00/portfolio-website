@@ -45,7 +45,11 @@ const Footer = () => {
 
         <Typography variant="body2" color="text.secondary">
           ©{" "}
-          <Link href="https://kstrahilov.dev/" underline="hover">
+          <Link
+            href="https://kstrahilov.dev/"
+            underline="hover"
+            color="inherit"
+          >
             Kristiyan Strahilov
           </Link>{" "}
           {new Date().getFullYear()}
